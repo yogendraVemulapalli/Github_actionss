@@ -1,0 +1,9 @@
+name: run java commands
+on: [push, fork, pull]
+jobs:
+  build:
+    runs-on: ubuntu:latest
+    steps:
+      - name: build
+        run: echo "build java project"
+        
